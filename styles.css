@@ -316,3 +316,11 @@ body {
     }
 
 }
+
+/* Trusted by the best section */
+
+#Trusted-by-best{
+    margin: 0 auto;
+    width: 90rem;
+    background-color: black;
+}
