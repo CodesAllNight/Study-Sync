@@ -319,7 +319,11 @@ body {
 
 }
 
+
+
+/* Tiny Hero sec starts Here!!! */
 #Trusted-by-best{
+    margin-bottom: 2rem;
     display: flex;
     /* flex-direction: column; */
     align-items: center;
@@ -344,15 +348,15 @@ body {
     grid-template-columns: repeat(2,1fr);
     gap: 3.5rem;
     padding: 1.8rem 2.5rem;
-    background-color: rgba(193,193,193,255);
+    background-color: rgb(247, 247, 247);
     border: none;
     border-radius: .5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
 }
 .company-logo{
     font-size: 1rem;
     font-weight: 500;
-    color: rgb(101, 100, 100);
+    color: rgb(103, 101, 101);
     display: flex;
     gap: .5rem;
 }
@@ -371,4 +375,115 @@ body {
         font-size: 1.5rem;
         font-weight: bolder;
     }
+}
+
+/* Cards Content Starts Here!!! */
+#feature-container{
+    background-color:  rgba(255, 248, 248, 0.859);
+    /* width: 100vw; */
+    
+    padding: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+
+} 
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff; */
+    max-width: 920px;
+    /* margin: 0 auto; */
+}
+#cards-grid{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+#text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+#OurCompetetive-h1 h1{
+    font-size: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight:900 !important;
+    color: rgb(31, 31, 31);
+}
+
+#OurCompetetive-p{
+    color: gray;
+    font-weight: 500;
+}
+
+.competetive-cards{
+    margin:0 .5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    background-color: rgb(183, 38, 38);
+    padding: 2rem;
+    border: none;
+    border-radius: .4rem;
+    color: rgba(253, 246, 246, 0.892);
+
+}
+.main-logos-competetive{
+    background-color: white;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.main-logos-competetive img {
+    width: 2.5rem;
+}
+
+.main-cards-heading h1{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+#personalized-learning{
+    background-color: #4a90e2;
+}
+#Affordibility{
+    background-color: #FF6289
+}
+#industry-partner{
+    background-color: #fcbf58;
+}
+#innovative-design{
+    background-color: #44bfc3
+}
+#responsive-support{
+    background-color: #77b05d
+}
+#analytics-insights{
+    background-color: #7d78b1
+}
+
+
+@media screen and (max-width:963px){
+    #cards-grid{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+        gap: 2rem
+    }
+    .main-cards-heading h1{
+        font-size: 2rem;
+    }
+
 }
