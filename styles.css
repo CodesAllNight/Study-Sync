@@ -19,6 +19,7 @@ body {
     /* text-align: vertical; */
     text-decoration: none;
     overflow-x: hidden;
+    background-color:  rgba(246, 242, 242, 0.859);
 }
 
 .header {
@@ -323,6 +324,7 @@ body {
 
 /* Tiny Hero sec starts Here!!! */
 #Trusted-by-best{
+    
     margin-bottom: 2rem;
     display: flex;
     /* flex-direction: column; */
@@ -348,10 +350,11 @@ body {
     grid-template-columns: repeat(2,1fr);
     gap: 3.5rem;
     padding: 1.8rem 2.5rem;
-    background-color: rgb(247, 247, 247);
+    background-color: rgba(227, 224, 224, 0.859);
     border: none;
     border-radius: .5rem;
     margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 .company-logo{
     font-size: 1rem;
@@ -377,11 +380,15 @@ body {
     }
 }
 
+
 /* Cards Content Starts Here!!! */
+
+
 #feature-container{
-    background-color:  rgba(255, 248, 248, 0.859);
-    /* width: 100vw; */
     
+    /* width: 100vw; */
+    background-color:  rgba(234, 230, 230, 0.859);
+
     padding: 2.5rem 0;
     display: flex;
     flex-direction: column;
@@ -485,5 +492,105 @@ body {
     .main-cards-heading h1{
         font-size: 2rem;
     }
+    .main-cards-heading h1{
+        font-weight: 900;
+        
+    }
+}
+
+/* testimonial section starts here */
+
+
+#test-flex{
+    margin: 2rem auto;
+    max-width: 1400px;
+    /* background-color: #44bfc3; */
+    text-align: center;
 
 }
+#cards-main-text-head {
+    font-family: "Inter",serif;
+    font-size: 1.3rem;
+}
+#cards-main-text-head h1{
+    font-weight: 700;
+    letter-spacing: -.1rem;
+
+}
+.cards-flex{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.cards{
+    
+
+    margin-bottom: 10rem;
+    padding:2rem 2rem;
+    background-color: white;
+    border:0.001rem solid black;
+    border-radius: .6rem ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* gap: .4rem; */
+    transition: all .2s ease-out;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+} 
+.cards:hover{
+    transform: scale(1.04);
+    border:0.001rem solid rgb(81, 90, 255);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;;
+}
+.cards-con-para p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.test-cards-img{
+   margin: .5rem 0;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(243, 153, 153, 0.859);
+   
+    border-radius: 50%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+#first-card-img{
+    background-color: #FF6289;
+}
+#scnd-card-img{
+    background-color: #fcbf58;
+    
+}
+#third-card-img{
+    background-color: #44bfc3
+}
+.test-cards-img img{
+    width: 3rem;
+}
+.test-cards-heading h1{
+    font-size: 1.2rem;
+    font-weight:800;
+    letter-spacing: -.01rem;
+    color: rgb(81, 90, 255);
+} 
+
+@media screen and (max-width : 963px){
+    .cards-flex{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+         /* gap: 2rem; */
+
+    }
+    .cards{
+        margin-bottom: 1rem;
+    }
+
+}
+
