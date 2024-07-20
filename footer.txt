@@ -1,0 +1,67 @@
+<footer id="study-sync">
+            <div id="main-footer-container">
+                <div id="text-footer">
+                    <a href="#">
+                        <img src="images/Untitled-1.png" alt="">
+                    </a>
+                    <div id="span-left-footer">
+                        <span id="main-span-footer">Seamless Learning For Brighter Future</span>
+                    </div>
+                    <div id="social-icons-footer">
+                        <ol id="social-ordered-list">
+                            <li><img src="images/instagram (1).png" alt=""></li>
+                            <li><img src="images/twitter.png" alt=""></li>
+                            <li><img src="images/linkedin.png" alt=""></li>
+                            <li><img src="images/github.png" alt=""></li>
+                        </ol>
+                    </div>
+                </div>
+                <div id="grid-footer-section">
+                    <div id="products-footer">
+                        <div class="footer-headings"  id="heading-products-footer">
+                            <h1>Products</h1>
+                        </div>
+                        <div class="spans-footer" id="footer-span-product-wrapper">
+                            <span class="footer-product-spans">Overview</span>
+                            <span class="footer-product-spans">Solutions</span>
+                            <span class="footer-product-spans">Pricing</span>
+                            <span class="footer-product-spans">Customers</span>
+                        </div>
+                    </div>
+                    <div id="company-footer">
+                        <div class="footer-headings" id="heading-company-footer">
+                            <h1>Company</h1>
+                        </div>
+                        <div class="spans-footer"  id="footer-span-company-wrapper">
+                            <span class="footer-company-spans">About</span>
+                            <span class="footer-company-spans">Investors Relations</span>
+                            <span class="footer-company-spans">Jobs</span>
+                            <span class="footer-company-spans">Press</span>
+                            <span class="footer-company-spans">Blog</span>
+                        </div>
+                    </div>
+                    <div id="support-footer">
+                        <div class="footer-headings" id="heading-support-footer">
+                            <h1>Support</h1>
+                        </div>
+                        <div class="spans-footer"  id="footer-span-support-wrapper">
+                            <span class="footer-support-spans">Contact</span>
+                            <span class="footer-support-spans">Documentation</span>
+                            <span class="footer-support-spans">Chat</span>
+                            <span class="footer-support-spans">FAQ</span>
+                        </div>
+                    </div>
+                    <div id="legal-footer">
+                        <div class="footer-headings" id="heading-legal-footer">
+                            <h1>Legal</h1>
+                        </div>
+                        <div class="spans-footer"  id="footer-span-legal-wrapper">
+                            <span class="footer-legal-spans">Terms Of Service</span>
+                            <span class="footer-legal-spans">Privacy Policy</span>
+                            <span class="footer-legal-spans">Cookie Settings</span>
+                        </div>
+                    </div>
+                </div>
+                    
+                </div>
+                </footer>
